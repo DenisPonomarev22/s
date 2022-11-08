@@ -3,6 +3,19 @@ a {
     text-decoration: none;
 }
 
+.btn{
+    background: #110;
+    border-radius: 6px;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    margin: 20px;
+    padding: 10px, 10px;
+}
+
 /* Псевдоселекторы */
  a:hover{ /* hover - поведение, при наведении курсором*/
     color: orange;
@@ -16,6 +29,10 @@ a:active{
     color: blue;
 }
 
-.css:hover{
-    color: orange;
+.btn:hover{
+    background: #444;
 }
+
+/* .css:hover{
+    color: orange;
+} */
