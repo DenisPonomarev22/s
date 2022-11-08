@@ -18,11 +18,11 @@ a {
 
 /* Псевдоселекторы */
  a:hover{ /* hover - поведение, при наведении курсором*/
-    color: orange;
+    color: #444;
 }
 
 a:visited{
-    color: palevioletred;
+    color: #444;
 }
 
 a:active{
